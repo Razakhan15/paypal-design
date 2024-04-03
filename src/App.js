@@ -1,10 +1,11 @@
-import DemoComponent from "./DemoComponent";
-
+import Header from "./components/Header";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div>
-   <DemoComponent />
+      <Header />
+      <Home/>
     </div>
   );
 }
