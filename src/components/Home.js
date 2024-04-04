@@ -2,6 +2,7 @@ import React from "react";
 import Boxes from "./Boxes";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
+import Page3 from "./pages/Page3";
 
 const Home = () => {
   return (
@@ -26,9 +27,10 @@ const Home = () => {
           </div>
         </div>
         <img className=" mt-20 w-full" src="1.svg" alt="" />
-      <Boxes />
-      <Page1/>
-      <Page2/>
+        <Boxes />
+        <Page1 />
+        <Page2 />
+        <Page3 />
       </div>
     </>
   );
