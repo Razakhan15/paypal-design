@@ -3,6 +3,7 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 const Boxes = () => {
   return (
+    <div>
     <center>
       <div className="grid grid-rows-7 grid-cols-6 -mt-32 gap-4 w-1/2 ab z-10 ">
         <div className="hover:cursor-pointer row-span-2 col-span-3 w-full h-full rounded-xl bg-blue-500 relative">
@@ -71,6 +72,7 @@ const Boxes = () => {
         </div>
       </div>
     </center>
+    </div>
   );
 };
 

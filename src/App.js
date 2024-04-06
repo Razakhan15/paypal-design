@@ -6,7 +6,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   setTimeout(() => {
     setLoading(false);
-  }, 5000);
+  }, 2000);
   return (
     <>
       {loading ? (
