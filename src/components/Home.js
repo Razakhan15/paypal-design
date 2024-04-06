@@ -29,13 +29,14 @@ const Home = () => {
           </div>
         </div>
         <img className=" mt-20 w-full" src="1.svg" alt="" />
+
+      </div>
         <Boxes />
         <Page1 />
         <Page2 />
         <Page3 />
         <Page4 />
         <Page5 />
-      </div>
     </>
   );
 };
