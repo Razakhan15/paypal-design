@@ -11,7 +11,7 @@ const Header = () => {
           alt=""
         />
       </div>
-      <div className="flex gap-10 text-sm text-blue-800">
+      <div className="flex gap-10 text-sm ">
         <button>Personal</button>
         <button>Business</button>
         <button>Developer</button>
@@ -19,8 +19,8 @@ const Header = () => {
       </div>
       </div>
       <div className="flex gap-5">
-        <button className="py-1 px-7 rounded-full border-2 border-blue-800">Log In</button>
-        <button className="py-1 px-7 rounded-full bg-blue-800 text-white">Sign Up</button>
+        <button className="py-1 px-7 rounded-full border-2 border-blue-900">Log In</button>
+        <button className="py-1 px-7 rounded-full bg-blue-900 text-white">Sign Up</button>
       </div>
     </div>
   );

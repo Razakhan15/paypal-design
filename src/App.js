@@ -6,7 +6,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   setTimeout(() => {
     setLoading(false);
-  }, 3000);
+  }, 5000);
   return (
     <>
       {loading ? (
@@ -17,7 +17,7 @@ function App() {
           <div class="h-8 w-8 bg-black rounded-full animate-bounce"></div>
         </div>
       ) : (
-        <div>
+        <div className="text-blue-900">
           <Header />
           <Home />
         </div>

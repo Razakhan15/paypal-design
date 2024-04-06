@@ -3,9 +3,9 @@ import React from "react";
 
 const Page2 = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-20">
       <center>
-        <div className="text-blue-900 font-bold ">
+        <div className=" font-bold ">
           <h1 className="text-4xl w-1/3">Make the most of your money</h1>
           <p className=" text-xl">
             We make it simple to use and organize your money.
@@ -15,12 +15,12 @@ const Page2 = () => {
           </p>
         </div>
       </center>
-      <div className="mt-10 flex flex-col gap-10">
-        <div className="flex justify-center h-1/4 w-full items-center gap-20    ">
+      <div className="mt-14 flex flex-col gap-10">
+        <div className="flex justify-center h-1/4 w-full items-center gap-20">
           <div className="w-1/4">
             <img className="rounded-xl" src="pic3.jpg" alt="" />
           </div>
-          <div className="w-1/3 text-blue-900">
+          <div className="w-1/3 ">
             <h1 className="text-3xl font-bold">Get paid early</h1>
             <p className="mt-5">
               Get paychecks and government payments automatically transferred to
@@ -33,7 +33,7 @@ const Page2 = () => {
           </div>
         </div>
         <div className="flex justify-center h-1/4 w-full items-center gap-20    ">
-          <div className="w-1/5 text-blue-900">
+          <div className="w-1/5 ">
             <h1 className="text-3xl font-bold">Digitize your cash</h1>
             <p className="mt-5">
               Add cash³ with the app or the PayPal Cash Card⁴ at 100,000 at
@@ -52,7 +52,7 @@ const Page2 = () => {
           <div className="w-2/5">
             <img className="rounded-xl" src="pic5.jpg" alt="" />
           </div>
-          <div className="w-1/5 text-blue-900">
+          <div className="w-1/5 ">
             <h1 className="text-3xl font-bold">Skip the bank</h1>
             <p className="mt-5">
               Snap photos of checks with the Cash a Check⁵ feature in the app and add that money to your PayPal balance

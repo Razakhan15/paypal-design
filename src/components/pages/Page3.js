@@ -5,12 +5,12 @@ const Page3 = () => {
   return (
     <div>
       <center>
-        <div className="text-4xl font-bold w-2/5 mt-32 text-blue-900">
+        <div className="text-4xl font-bold w-2/5 mt-32">
           More ways to manage your money
         </div>
       </center>
       <div className="relative">
-        <div className="absolute top-1/2 left-40 text-blue-900">
+        <div className="absolute top-1/2 left-40">
           <h1 className="text-3xl font-bold w-1/3">
             Grow your PayPal Savings, with interest
           </h1>
@@ -27,7 +27,7 @@ const Page3 = () => {
       </div>
       <div className="relative ">
         <img src="page3.png" alt="" />
-        <div className="absolute top-1/3 right-40 w-fit text-blue-900">
+        <div className="absolute top-1/3 right-40 w-fit">
           <h1 className="text-3xl font-bold w-80">Discover crypto</h1>
           <p className=" mt-5 w-96">
             Learn how to buy, sell, transfer, and hold Bitcoin, Bitcoin Cash,
