@@ -16,7 +16,7 @@ const Page4 = () => {
         <img className='w-1/4 rounded-xl' src="credit card.jpg" alt="" />
         <div className='w-1/4'>
             <h1 className='text-3xl font-bold'>Meet the PayPal Cash Card</h1>
-            <p className='mt-3'>Pay in person or online everywhere Mastercard is accepted. Plus, there's no monthly fee, minimum balance, or credit check required.</p>
+            <p className='mt-3'>Pay in person or online everywhere Mastercard is accepted. Plus, there's no monthly fee, minimum balance, or credit check required.⁴</p>
             <button className='flex items-center gap-5 mt-3 text-blue-500'><p>About the PayPal Cash Card</p> <ArrowRightIcon className='h-5 w-5'/></button>
         </div>
     </div>
