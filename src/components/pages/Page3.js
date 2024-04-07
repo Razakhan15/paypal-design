@@ -4,7 +4,7 @@ import React from "react";
 const Page3 = () => {
   return (
     <div className="h-full">
-        <div className="md:text-4xl text-center text-3xl font-bold lg:w-2/5 lg:mt-32 md:mt-16 mt-10">
+        <div className="md:text-4xl text-center text-3xl font-bold w-full lg:mt-32 md:mt-16 mt-10">
           More ways to manage your money
         </div>
       <div className="md:relative mt-12 md:mt-0">
@@ -21,10 +21,10 @@ const Page3 = () => {
             <ArrowRightIcon className="h-5 w-5" />
           </button>
         </div>
-        <img className="hidden md:block" loading="lazy" src="page2.png" alt="" />
+        <img className="hidden md:block w-full" loading="lazy" src="page2.png" alt="" />
       </div>
       <div className="md:relative mt-10 md:mt-0">
-        <img className="hidden md:block" loading="lazy" src="page3.png" alt="" />
+        <img className="hidden md:block w-full" loading="lazy" src="page3.png" alt="" />
         <div className="md:absolute lg:top-1/3 md:top-1/4 md:left-1/2 lg:left-[60%] w-fit">
           <h1 className="md:text-3xl text-2xl font-bold md:w-80">Discover crypto</h1>
           <p className=" mt-5 md:w-96">
