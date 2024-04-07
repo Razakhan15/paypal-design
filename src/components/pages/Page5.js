@@ -2,21 +2,23 @@ import React from "react";
 
 const Page5 = () => {
   return (
-    <div className="lg:relative mt-10">
-      <div className="lg:absolute top-1/4 flex flex-col lg:flow-row justify-evenly">
-        <div className="lg:w-1/2  ">
-            <h1 className="lg:w-9/12 text-center text-2xl md:text-3xl lg:text-5xl font-bold">
+    <div className="lg:relative mt-10 lg:mt-0">
+      <div className="lg:absolute top-1/4 flex flex-col lg:flex-row justify-evenly">
+        <div className="lg:w-1/2">
+          <center>
+            <h1 className="lg:w-9/12 text-2xl md:text-3xl lg:text-5xl font-bold">
               Join the millions around the world who love PayPal
             </h1>
-            <p className="text-lg lg:w-4/5 text-left lg:ml-28 mt-5 font-semibold">
+            <p className="text-sm text-center md:text-lg lg:w-4/5 lg:text-left lg:ml-28 mt-5 font-semibold">
               Easily and Securely spend, send, and manage your transactions--all
               in one place. Download the app on your phone or sign up for free
               online.
             </p>
+          </center>
         </div>
         <div className="lg:w-1/2 mt-10 lg:mt-0">
           <center className="flex flex-col items-center gap-5">
-            <img  loading="lazy" className="w-32 " src="qr.jpg" alt="" />
+            <img loading="lazy" className="w-32 " src="qr.jpg" alt="" />
             <p>Scan the code or enter your number to get the app.</p>
             <input
               placeholder="Phone number"
