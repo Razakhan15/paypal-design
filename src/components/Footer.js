@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="p-5">
+    <footer className="md:p-5">
       <img className="h-52 w-52" src="paypal.png" alt="" />
-      <div className="flex justify-between items-center">
-        <div className="flex gap-4 font-bold">
+      <div className="md:flex justify-between items-center hidden">
+        <div className="flex text-sm lg:text-lg gap-4 font-bold">
           <span>Help</span>
           <span>Contact</span>
           <span>Fees</span>
@@ -18,8 +18,8 @@ const Footer = () => {
         </div>
         <div>
           <svg
-            class="w-10 h-10"
-            enable-background="new 0 0 512 512"
+            className="w-10 h-10"
+            enableBackground="new 0 0 512 512"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -52,8 +52,8 @@ const Footer = () => {
           </svg>
         </div>
       </div>
-      <div className="border mt-5"></div>
-      <div className="flex justify-between items-center mt-5">
+      <div className="border mt-5 hidden md:block"></div>
+      <div className="lg:flex hidden justify-between items-center mt-5">
         <div className="flex gap-4 font-bold">
           <span>About</span>
           <span>Newsroom</span>
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
       </div>
       <center>
-        <div className="w-9/12 text-left mt-28 flex flex-col gap-8">
+        <div className="lg:w-9/12 text-left md:mt-10 lg:mt-28 flex flex-col gap-8">
           <p>
             ¹ Direct Deposit is subject to the payor's support of this feature.
             Funds deposited via Direct Deposit will generally be available on
